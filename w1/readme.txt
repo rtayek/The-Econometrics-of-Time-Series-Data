@@ -1,6 +1,14 @@
 gamma is covariance coeddicients?
 tau is correlation coefficients
 
+this folder has all of the source for the course
+despite being in w1/.
+
+http://rstudio-pubs-static.s3.amazonaws.com/292878_39d4c7baccf0458ba0c0e39bdceb76b3.html
+
+https://www.coursera.org/courses?query=fintech
+https://www.udemy.com/topic/fintech/
+
 https://www.coursera.org/learn/the-econometrics-of-time-series-data/supplement/65VMC/from-the-theoretical-acf-to-the-specification-of-the-empirical-model
 
 A white noise process has:

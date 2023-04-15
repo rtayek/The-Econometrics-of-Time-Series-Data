@@ -3,7 +3,12 @@ library(SciViews)
 library(pracma)
 library(ggplot2)
 library(ggpubr)
-df <- as.data.frame(read_excel("C:\\Ph.D\\datajapanus.xlsx"))
+ilename<-"w1\\week 2 data.csv"
+print(filename)
+path=file.path(filename)
+print(path)
+print(file.exists(path))
+df <- as.data.frame(read.csv(path))
 
 #### First ####
 ###### Transform the data into ln ######

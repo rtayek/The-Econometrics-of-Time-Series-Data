@@ -3,6 +3,6 @@ pn <- function(format="", ...) { # print
     cat(s)
 }
 p <- function(format="", ...) { # priint line
-    s=pn(format,...)
-    cat(s,"\n")
+    pn(format,...)
+    cat("\n")
 }
