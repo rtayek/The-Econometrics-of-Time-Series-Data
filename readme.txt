@@ -4,6 +4,8 @@ tau is correlation coefficients
 this folder has all of the source for the course
 despite being in w1/.
 
+http://adv-r.had.co.nz/Computing-on-the-language.html
+
 http://rstudio-pubs-static.s3.amazonaws.com/292878_39d4c7baccf0458ba0c0e39bdceb76b3.html
 
 https://www.coursera.org/courses?query=fintech

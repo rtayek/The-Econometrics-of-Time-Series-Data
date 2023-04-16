@@ -6,13 +6,7 @@ library(fitdistrplus)
 library(logspline)#install.packages("ggplot2")
 library(ggplot2)
 library(forecast)
-pn <- function(format="", ...) { # print
-    cat(sprintf(fmt=format,...))
-}
-pr <- function(format="", ...) { # priint line
-    pn(format,...)
-    cat("\n")
-}
+source("w1/pr.R")
 stats<-function(ts){
     m=mean(ts); sd<-sd(ts); ku<-kurtosis(ts); sk<-skewness(ts)
     pr("mean: %f, sd: %f, kurtosis: %f, skewness %f",m,sd,ku,sk)
