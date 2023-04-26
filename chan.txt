@@ -1,0 +1,33 @@
+i am avoiding anything with rest in the title for ow.
+
+we should bothe start by reading this: https://martinfowler.com/tags/API%20design.html
+
+https://livebook.manning.com/book/api-design-patterns/chapter-1/v-7/
+
+mannung: https://www.goodreads.com/en/book/show/51192053
+
+manning https://www.simonandschuster.com/books/API-Design-Patterns/JJ-Geewax/9781617295850
+
+
+https://blog.axway.com/learning-center/apis/api-management/microservice-api-patterns-a-language-for-api-design
+
+https://blog.feathersjs.com/design-patterns-for-modern-web-apis-1f046635215
+
+duplicate? https://dokumen.pub/api-design-patterns-9781617295850.html
+
+maybe https://www.packtpub.com/product/hands-on-restful-api-design-patterns-and-best-practices/9781788992664
+
+
+https://www.linkedin.com/advice/0/how-do-you-use-web-service-api-design-patterns
+
+
+
+https://www.oreilly.com/library/view/api-design-patterns/9781617295850VE/
+
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL46nQ1bT-AhVyLUQIHcD4BLs4ChAWegQIDBAB&url=https%3A%2F%2Flivebook.manning.com%2Fbook%2Fapi-design-patterns%2Fchapter-1%2F&usg=AOvVaw2jRABblglv2c91cEaPsiNz
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL46nQ1bT-AhVyLUQIHcD4BLs4ChAWegQICBAB&url=https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fapi-design-patterns%2F9781617295850VE%2F&usg=AOvVaw1od0KjI0mgERvLywLZUrfz
+
+api
+service

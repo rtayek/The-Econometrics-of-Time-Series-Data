@@ -10,6 +10,8 @@ library(ggplot2)
 library(forecast)
 require(graphics)
 require(dgof)
+library(fpp3)
+library(tsibble)
 source("pr.R")
 myStats<-function(ts){
     m=mean(ts); sd<-sd(ts); ku<-kurtosis(ts); sk<-skewness(ts)
@@ -31,6 +33,12 @@ analyze<-function(ts) {
     
 }
 filename<-"week4.dta"; path<-file.path(filename); df <- read_dta(path)
+tsi=tsibble(df)
+tsi |>
+    gg_season(Cost, labels = "both") +
+    labs(y = "yyy",
+         title = "Seasonal plot: ")
+
 ts<-xts(x=df$sp500,order.by = df$date)
 n=1000
 data <- rnorm(n) #Error in rpois(n) : argument "lambda" is missing, with no default
@@ -57,3 +65,11 @@ curve(dnorm(x, m, sd), xlim=c(x0,x1), ylim=c(0,1), bty="n", xlab="")
 curve(dnorm(x, 2, 1), from=1, to=7, bty="n", xlab="")
 fit <- auto.arima(prs)
 #descdist(ts$sp500, discrete = FALSE)
+tsi<-tsibble(ts$Data,ts$Index)
+df=zoo::fortify.zoo(ts)
+tsi=as_tsibble(df)
+fill_gaps(tsi,.full = FALSE)
+tsi |>
+    gg_season(Cost, labels = "both") +
+    labs(y = "yyy",
+         title = "Seasonal plot: ")
