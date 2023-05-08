@@ -1,8 +1,6 @@
 gamma is covariance coeddicients?
 tau is correlation coefficients
 
-api and service for chandler.
-
 auto correlation formula is different for time series because it gives better results.
 
 use simulation to show smaple distribution of the mean.
@@ -21,8 +19,8 @@ correlate with 2 delta or
     
 https://stats.stackexchange.com/questions/520841/when-a-time-series-is-considered-overdifferenced    
 
-this folder has all of the source for the course
-despite being in w1/.
+this folder has all of the source for the course.
+it also has stuf from fpp3.
 
 http://adv-r.had.co.nz/Computing-on-the-language.html
 
@@ -69,3 +67,5 @@ pacf --> 0 smooothly and oscillates
 
 ar(1) model
 y=.9y(t-1)
+
+
